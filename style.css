@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+ background-color: #e5e5e5;
+}
+
+:root {
+  --animate-duration: 8s;
+  --animate-delay: 0.9s;
+}
+
+/*   navigation bar*/
+.navbar{
+  position: fixed;
+  top: 0;
+  padding: .8rem;
+  z-index: 1;
+  width: 100%;
+}
+
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+.navbar:hover, a:hover{
+  color: yellow;
+}
+
+button:hover{
+  color: white;
+}
+
+/* styling home section*/
+h1 .animate_animated{
+  animation-duration: 2s;
+}
+
+/*my skills styling*/
+.progress{
+  height: 1.3rem;
+  border-radius: 10rem;
+  transition: all 0.5s ease;
+}
+
+.progress:hover{
+  transform: scale(1.1);
+}
+
+/*my projects styling*/
+.card{
+  transition: all 0.5s ease;
+}
+
+.card img{
+  height: 15rem;
+  width: 13rem;
+  margin: auto;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 2px 10px black;
+}
+
+
+/* styling footer*/
+footer{
+    float: left;
+    width: 100%;
+    background-color: #696969;
+    color: #000;
+    padding: 10px;
+    
+}
+
+.socials{
+    padding: 20px 0;
+}
+
+.social, i{
+  
+    font-size: 2rem;
+}
+ .fab:hover{
+  color: yellow;
+ }
+
+ /* adding responsiveness*/
+ @media all and (max-width: 768px){
+
+ /* .animate__wobble{
+    margin-top: 5rem;
+  }
+
+   #about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   }
+
+   p, .animate__jackInTheBox{
+    margin-left: .2rem;
+   }*/
+ 
+
+/* #img1{
+  width: 20rem;
+ }*/
+
+  /*#animate__fadeInBottomRight{
+  display: flex;
+  flex-direction: column;
+
+   }*/
+}
+
+/* #download-resume{
+  margin-bottom: 1rem;
+ }*/
+
+ #my-projects{
+  margin-bottom: 4rem;
+ }
+
+ 
