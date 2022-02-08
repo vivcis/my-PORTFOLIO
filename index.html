@@ -188,15 +188,19 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6 mx-auto">
-				<form action="">
+				<form action="" id="form" onsubmit="sendMail()">
 					<div class="mb-3">
 						  <label for="exampleFormControlInput" class="form-label fw-bold">Full Name:</label>
-						  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="my name is ...">
+						  <input type="text" class="form-control" id="exampleFormControlInput1"  placeholder="my name is ...">
 						  </div>
 						  <div class="mb-3">
 						  <label for="exampleFormControlInput1" class="form-label fw-bold">Email address:</label>
-						  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+						  <input type="email" class="form-control" id="exampleFormControlInput1"  placeholder="name@example.com">
 						  </div>
+						  <div class="mb-3">
+							<label for="exampleFormControlInput1" class="form-label fw-bold">Subject:</label>
+							<input type="text" class="form-control" id="exampleFormControlInput1" id="subject" placeholder="title of your message">
+							</div>
 						<div class="mb-3">
 						  <label for="exampleFormControlTextarea1" class="form-label fw-bold">Your Message:</label>
 						  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="type your message here" rows="5"></textarea>
